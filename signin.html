@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>No Error Code Hub</title>
+	<link rel="stylesheet" type="text/css" href="user.css">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="signinBlock">
+		<form class="signinForm">
+			<h1 class="signinTitle">Sign In</h1>
+			<div class="usernameBox">
+				<div>Enter your username or email:</div>
+				<input type="text" class="usernameInput">
+			</div>
+			<div class="passwordBox">
+				<div>Enter your password:</div>
+				<input type="password" class="passwordInput">
+			</div>
+			<input type="button" class="signinButton" onclick="openMulOpt()" value="Sign In"></input>
+			<p>
+				<a href="#" class="linkToForgotPassword">Fogrot password?</a>
+			</p>
+			<p>
+				<a href="signup.html" class="linkToSignup">Don't have an account? Create a new account</a>
+			</p>
+		</form>
+	</div>
+	<div class="forgotPasswordBlock">
+		<form class="forgotPasswordForm">
+			<div class="forgotPasswordBox">
+				<div>Enter email to send the link to change password:</div>
+				<input type="email" class="email">
+			</div>
+			<button class="sendLink">Send Link</button>
+		</form>
+	</div>
+	<script src="user.js" type="text/javascript"></script>
+</body>
+</html>
